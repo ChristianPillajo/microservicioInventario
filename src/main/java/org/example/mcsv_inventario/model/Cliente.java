@@ -19,13 +19,11 @@ public class Cliente {
     @Column(name = "cli_identificacion")
     private String cliIdentificacion;
 
-
     @Column(name = "cli_nombres")
     private String cliNombres;
 
     @Column(name = "cli_apellidos")
     private String cliApellidos;
-
 
     @Column(name = "cli_ciudad")
     private String cliCiudad;
